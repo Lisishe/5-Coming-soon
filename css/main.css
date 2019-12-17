@@ -61,6 +61,7 @@
             background-color: #fff;
         }
         .content > .row {
+            background: yellow;
             display: inline-block;
             width: 1000px;
             margin-left: calc( (100% - 1000px) / 2) ;
@@ -135,5 +136,5 @@ text-align: center;
                 border-right: 2px solid #fff;
     }
                 footer .footer-content a {
-      color: #fff;
+                color: #fff;
     }
