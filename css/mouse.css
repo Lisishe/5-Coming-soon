@@ -1,0 +1,26 @@
+.mouse {
+    display: inline-block;
+    width: 120px;
+    height: 200px;
+    border: 10px solid #fff;
+    border-radius: 60px;
+
+}
+    .mouse > .wheel {
+        display: inline-block;
+        width: 10px;
+        height: 25px;
+        margin-top: 40px;
+        background-color: #fff;
+        animation: in-da-house 1s linear infinite ;
+    }
+    @keyframes in-da-house {
+        0 {
+            margin-rop: 40px;
+            opasity: 1;
+        }
+        100% {
+            margin-top: 120px;
+            opasity:
+        }
+    }
