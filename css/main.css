@@ -143,6 +143,12 @@ text-align: center;
         width: 1000px;
         margin-left: calc( (100% - 1000px) / 2 );
         margin-right: calc( (100% - 1000px) / 2 );
+        position: relative;
+    }
+    footer > .row > .btn.fa {
+        position: absolute;
+        top: -30px;
+        right: -18px;
     }
         footer > .row > .socials {
         display: inline-block;
@@ -201,6 +207,9 @@ text-align: center;
             width: 600px;
             margin-left: calc( (100% - 600px) / 2) ;
             margin-right: calc( (100% - 600px) / 2) ;          
+        }
+        footer > .row > .btn.fa {
+         display: none;
         }
     }
     @media (max-width: 700px) {
